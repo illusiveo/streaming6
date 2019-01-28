@@ -1107,9 +1107,9 @@ client.on('ready', () => {
   console.log(`|  Users Size ${client.users.size}  |`);
   console.log(`| Guilds Size ${client.guilds.size} |`);
   console.log(`|===================================|`);
-  console.log(`| Created By <@429972030092476437> |`);
+  console.log(`| Created By <@229192961907228674>  |`);
   console.log(`|===================================|`);
-  console.log(`|        Probot Log By You !      |`);
+  console.log(`|        Probot Log By You !        |`);
   console.log(`|===================================|`);
 });
 client.on('message', msg => {
@@ -4673,7 +4673,7 @@ if (err) console.error(err)
 });
 })
 const sWlc = {}
-const premium = ['394498659540271104', '', '', '']
+const premium = ['229192961907228674', '342092213951397898', '394498659540271104', '']
 client.on('message', message => {
 var prefix = "#";
 if(message.channel.type === "dm") return;
@@ -4769,12 +4769,12 @@ client.on("guildMemberAdd", member => {
 
     })
 
-    const devs = ['394498659540271104'];
+    const devs = ['229192961907228674'];
 
 client.on('message', message => {
     let argresult = message.content.split(` `).slice(1).join(' ');
     if (message.content.startsWith(prefix + 'setStreaming')) {
-      if (!devs.includes(message.author.id)) return message.channel.send("<@498378677512437762> only this guy can do restart the bot so don't try again :wink:.");
+      if (!devs.includes(message.author.id)) return message.channel.send("<@229192961907228674> only this guy can do restart the bot so don't try again :wink:.");
       message.delete();
       client.user.setGame(argresult, 'https://twitch.tv/DynastyShop');
 
