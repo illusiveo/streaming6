@@ -1,2 +1,2 @@
-# streaming6
-streaming6
+# devel ✨
+Epic Discord Bot
